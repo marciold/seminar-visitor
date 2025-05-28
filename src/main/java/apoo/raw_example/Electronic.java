@@ -10,6 +10,7 @@ public class Electronic extends Product{
         return switch (estado) {
             case "SP" -> price * 0.18;
             case "BA" -> price * 0.19;
+            case "RJ" -> price * 0.20;
             default -> throw new IllegalArgumentException("Estado inválido.");
         };
     }

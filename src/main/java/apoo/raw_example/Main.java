@@ -9,7 +9,7 @@ public class Main {
                 new Food(100)
         );
 
-        String[] estados = {"SP", "BA"};
+        String[] estados = {"SP", "BA", "RJ"};
 
         for (String estado : estados) {
             System.out.println("Impostos " + estado + ":");
